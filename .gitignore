@@ -1,0 +1,17 @@
+# Python / uv
+backend/.venv/
+__pycache__/
+*.py[cod]
+.uv/
+
+# 密钥文件（不要提交）
+backend/.env
+
+# 运行时数据库（含用户与聊天记录）
+ai_chat.db
+ai_chat.db-wal
+ai_chat.db-shm
+
+# 编辑器
+.vscode/
+.idea/
